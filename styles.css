@@ -3,3 +3,19 @@
   padding: 0;
   margin: 0;
 }
+
+.debugg {
+  border: 3px solid blue;
+  height: 200px;
+}
+
+main {
+  min-height: 500px;
+}
+
+.content {
+  border: 3px solid lightblue;
+  height: 20%;
+}
+
+/* utilities */
