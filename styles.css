@@ -265,8 +265,88 @@ main {
   padding-top: 10px;
 }
 
-/* Expertise Start */
+/* Expertise End */
 
+
+
+/* Brands Start */
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 110px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 8px 25px;
+  font-size: 12px;
+}
+
+.form h2 {
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.input {
+  width: 450px;
+  padding: 12px;
+  margin: 10px;
+  border: rgba(153, 153, 153, 0.3) 1px solid;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  width: 380px;
+  margin-bottom: 20px;
+}
+
+.logos-r1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.logos-r2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.logos-r3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.logos-r4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.logos-r5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
 
 
 /* utilities */
