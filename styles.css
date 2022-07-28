@@ -113,6 +113,47 @@ main {
   min-height: 500px;
 }
 
+/* Our Story Start */
+
+.our-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45vh;
+  gap: 90px;
+}
+
+.img-our-story {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+
+}
+
+.text-our-story {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(65, 61, 75, 255);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.text-our-story h2 {
+  color: rgba(65, 61, 75, 255);
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.btn-our-story {
+  padding-top: 30px;
+  ;
+}
+
+/* Our Story End */
+
 /*watch-section*/
 .watch-section {
   background: url('design-assets/bgk-middle.png') no-repeat center center/cover;
@@ -143,49 +184,7 @@ main {
   height: 500px;
 }
 
-
-
-/* Our Story Start */
-
-.our-story {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 45vh;
-  gap: 90px;
-}
-
-.img-our-story {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  
-}
-
-.text-our-story {
-  max-width: 520px;
-  display: flex;
-  flex-direction: column;
-  color: rgba(65,61,75,255);
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  font-weight: 300;
-}
-
-.text-our-story h2 {
-  color: rgba(65,61,75,255);
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-}
-
-.btn-our-story {
-  padding-top: 30px;
-  ;
-}
-
-/* Our Story End */
-
+/* Watchsection End */
 
 
 /* Expertise Start */
@@ -205,14 +204,16 @@ main {
   align-items: center;
   margin-top: 30px;
   line-height: 1.4;
-  font-family: 'Playfair Display', serif;;
-  color: rgba(65,61,75,255);
+  font-family: 'Playfair Display', serif;
+  ;
+  color: rgba(65, 61, 75, 255);
   font-size: 22px;
 }
 
 .title-expertise p {
-  font-family: 'Playfair Display', serif;;
-  color: rgba(47,45,53,255);
+  font-family: 'Playfair Display', serif;
+  ;
+  color: rgba(47, 45, 53, 255);
   font-size: 14px;
 }
 
@@ -263,7 +264,7 @@ main {
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  color: rgba(51,51,51,0.7);
+  color: rgba(51, 51, 51, 0.7);
   font-weight: 400;
 }
 
@@ -271,7 +272,7 @@ main {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: rgba(65,61,75,255);
+  color: rgba(65, 61, 75, 255);
 }
 
 .box-1 {
@@ -304,104 +305,6 @@ main {
 
 /* Expertise End */
 
-
-
-/* Brands Start */
-
-.brands {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  gap: 110px;
-}
-
-.form {
-  margin-top: 20px;
-}
-
-.form a {
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 10px;
-  padding: 8px 25px;
-  font-size: 12px;
-}
-
-.form h2 {
-  padding-left: 10px;
-  padding-bottom: 15px;
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-  font-size: 22px;
-  color: rgba(65,61,75,255);
-}
-
-.input {
-  width: 450px;
-  padding: 12px;
-  margin: 10px;
-  border: rgba(153, 153, 153, 0.3) 1px solid;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  color: rgba(65,61,75,255);
-}
-
-.logos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  gap: 40px;
-  width: 380px;
-  margin-bottom: 10px;
-}
-
-.logos h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-  font-size: 22px;
-  color: rgba(65,61,75,255);
-}
-
-.logos-r1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-}
-
-.logos-r2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
-}
-
-.logos-r3 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 100px;
-}
-
-.logos-r4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 110px;
-}
-
-.logos-r5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 105px;
-}
-
-
-
 /* Teams-Section Start */
 
 .teams-section {
@@ -424,7 +327,7 @@ main {
   line-height: 1.4;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
-  color: rgba(249,249,249,255);
+  color: rgba(249, 249, 249, 255);
 }
 
 .teams-section-title h2 {
@@ -489,7 +392,7 @@ main {
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: 300;
-  color: rgba(250,250,250,255);
+  color: rgba(250, 250, 250, 255);
 }
 
 .teams-name h2 {
@@ -500,7 +403,7 @@ main {
 .teams-name h3 {
   font-size: 18px;
   font-weight: 200;
-  color: rgba(250,250,250,255);
+  color: rgba(250, 250, 250, 255);
 }
 
 .teams-section-button {
@@ -514,7 +417,7 @@ main {
 .teams-section-button h2 {
   font-size: 22px;
   font-weight: 200;
-  color: rgba(243,243,243,255);
+  color: rgba(243, 243, 243, 255);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -527,6 +430,100 @@ main {
 
 /* Teams-Section End */
 
+/* Brands Start */
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 110px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 8px 25px;
+  font-size: 12px;
+}
+
+.form h2 {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgba(65, 61, 75, 255);
+}
+
+.input {
+  width: 450px;
+  padding: 12px;
+  margin: 10px;
+  border: rgba(153, 153, 153, 0.3) 1px solid;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(65, 61, 75, 255);
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  width: 380px;
+  margin-bottom: 10px;
+}
+
+.logos h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgba(65, 61, 75, 255);
+}
+
+.logos-r1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.logos-r2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.logos-r3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.logos-r4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.logos-r5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
+
 /* Footer Start */
 
 footer {
@@ -537,12 +534,29 @@ footer {
   height: 50vh;
 }
 
-footer p {
-  font-family: sans-serif;
+.logo-footer {
+  display: flex;
+  align-items: center;
+}
+
+.logo-footer>* {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.column-top p {
   max-width: 320px;
-  font-weight: 200;
-  color: rgb(153, 153, 153);
-  margin-top: 10px;
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 255);
+  line-height: 1.8;
+  margin-top: 20px;
 }
 
 .footer-column {
@@ -557,20 +571,27 @@ footer p {
   margin: 20px 0;
   text-transform: uppercase;
   font-size: 15px;
+  font-family: 'Roboto-Black', sans-serif;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 255);
+  line-height: 1.8;
 }
 
 .card-1 {
   justify-content: space-between;
 }
 
-footer .column-bottom {
+.card-1 .column-bottom {
   display: flex;
   justify-content: space-between;
-  color: #fff;
 }
 
-footer .column-bottom>* {
-  font-family: sans-serif;
+.card-1 .column-bottom>* {
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 255);
+  line-height: 1.6;
   text-transform: uppercase;
 }
 
@@ -584,7 +605,13 @@ footer .column-bottom>* {
 }
 
 .footer-row-right p {
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 255);
+  line-height: 1.8;
   margin-left: 10px;
+  margin-top: 2px;
 }
 
 .card-3 {
@@ -604,15 +631,20 @@ footer .column-bottom>* {
   background-color: rgb(153, 153, 153);
 }
 
-.card-3 .column-bottom {}
-
-/* testing purpose */
-footer>* {
-  border: red 2px solid;
+.social {
+  margin-top: 20px;
 }
 
-.footer-column>* {
-  border: 2px solid black;
+.social>* {
+  margin-right: 8px;
+}
+
+.card-3 .column-bottom {
+  justify-content: end;
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 255);
 }
 
 /* Footer End */
@@ -635,8 +667,4 @@ footer>* {
   text-transform: uppercase;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 16px;
-}
-
-.border {
-  border: red 2px solid;
 }
