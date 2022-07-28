@@ -527,6 +527,96 @@ main {
 
 /* Teams-Section End */
 
+/* Footer Start */
+
+footer {
+  background: url('design-assets/bgk-footer.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+footer p {
+  font-family: sans-serif;
+  max-width: 320px;
+  font-weight: 200;
+  color: rgb(153, 153, 153);
+  margin-top: 10px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 290px;
+}
+
+.footer-title {
+  padding: 0 5px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.card-1 {
+  justify-content: space-between;
+}
+
+footer .column-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+footer .column-bottom>* {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-row-left img {
+  margin: 10px;
+}
+
+.footer-row-right p {
+  margin-left: 10px;
+}
+
+.card-3 {
+  justify-content: space-between;
+}
+
+.card-3 input {
+  width: 70%;
+  padding: 12px;
+  background-color: transparent;
+  border: rgb(153, 153, 153) 1px solid;
+}
+
+.card-3 label {
+  width: 30px;
+  padding: 12px 20px;
+  background-color: rgb(153, 153, 153);
+}
+
+.card-3 .column-bottom {}
+
+/* testing purpose */
+footer>* {
+  border: red 2px solid;
+}
+
+.footer-column>* {
+  border: 2px solid black;
+}
+
+/* Footer End */
+
 /* utilities */
 
 .primary-color {
